@@ -42,7 +42,7 @@
             echo "<hr>";
         }
      
-        echo "<div class=text-primary><br>สรุปคะแนนที่ได้ $sum/$count</b></div>";
+        echo "<h3 class=text-primary><br>สรุปคะแนนที่ได้ $sum/$count</b></h3>";
         echo "<hr>";
         mysqli_close($link);
         ?>
