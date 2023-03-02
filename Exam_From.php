@@ -34,10 +34,10 @@
 
                 echo "<b>ข้อที่ $no.$question ? </b><br><br>\n";
 
-                echo "<input class=form-check-input type=radio name=q$no value=1>\n&nbsp;$choice1<br><br>\n";
-                echo "<input class=form-check-input type=radio name=q$no value=2>\n&nbsp;$choice2<br><br>\n";
-                echo "<input class=form-check-input type=radio name=q$no value=3>\n&nbsp;$choice3<br><br>\n";
-                echo "<input class=form-check-input type=radio name=q$no value=4>\n&nbsp;$choice4<br><br><br>\n";
+                echo "<input class=form-check-input type=radio name=$no value=1>\n&nbsp;$choice1<br><br>\n";
+                echo "<input class=form-check-input type=radio name=$no value=2>\n&nbsp;$choice2<br><br>\n";
+                echo "<input class=form-check-input type=radio name=$no value=3>\n&nbsp;$choice3<br><br>\n";
+                echo "<input class=form-check-input type=radio name=$no value=4>\n&nbsp;$choice4<br><br><br>\n";
                 echo "<hr>";
             }
             ?>

@@ -25,7 +25,7 @@
         $count = 0;
         while ($dbarr = mysqli_fetch_array($result)) {
             $no = $dbarr['No'];
-            $index = "q$no";
+            $index = $no;
             $ans = $dbarr['Answer'];
 
             if (empty($_POST[$index])) {
